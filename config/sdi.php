@@ -11,5 +11,5 @@ return [
     'sso_token_url' => env('SSO_TOKEN_URL', ''),
     'sso_authorize_url' => env('SSO_AUTHORIZATION_URL', ''),
     // FORCE HTTPS
-    'force_https' => env('FORCE_HTTPS', false),
+    'force_https' => env('FORCE_HTTPS', true),
 ];
